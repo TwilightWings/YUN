@@ -28,7 +28,7 @@ jobs:
           channel_id: ${{vars.TACOPAN_YOUTUBE_CHANNEL_ID}}
           discord_webhook_url: ${{vars.DISCORD_WEBHOOK_URL}}
         run: |
-          python youtube_feed_twitter.pyc
+          python youtube_feed_notifier.pyc
       - name: execute commit
         run: |
           git config user.name github-actions
