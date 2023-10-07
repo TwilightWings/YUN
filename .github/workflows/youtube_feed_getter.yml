@@ -1,0 +1,44 @@
+name: Youtube Feed Getter
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  # 「アクション」タブからこのワークフローを手動で実行できます。
+  workflow_dispatch:
+  
+jobs:
+  getdataandrefreshmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8 #install the python needed
+      - name: install dependencies
+        run: |
+          if [ -f .github/workflows/requirements.txt ]; then pip install -r .github/workflows/requirements.txt; fi
+      - name: execute py script 1
+        env: #Registration using Repository variables
+          channel_id: ${{vars.TACOPAN_YOUTUBE_CHANNEL_ID}}
+          playlist_id: ${{vars.TACOPAN_YOUTUBE_PLAYLIST_ID}}
+        run: |
+          python youtube_feed_getter.py
+      - name: execute py script 2
+        env: #Registration using Repository variables
+          channel_id: ${{vars.TWILIGHTWINGSSTUDIO_YOUTUBE_CHANNEL_ID}}
+        run: |
+          python youtube_feed_getter.py
+      - name: execute commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "crongenerated"
+          git push
+        continue-on-error: true
+      - if: ${{ steps.git-pr-release.outputs.error != '' && !contains(steps.git-pr-release.outputs.error, 'No pull requests to be released') }}
+        run: |
+          echo '::error ::git-pr-release failed with "${{ steps.git-pr-release.outputs.error }}"'
+          exit 1
