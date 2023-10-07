@@ -1,0 +1,43 @@
+name: Youtube Feed Twitter - TACOPAN
+
+on:
+  schedule:
+    - cron: "5 * * * *" #毎時5分
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  getdataandrefreshmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner.
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8 #install the python needed
+      - name: Install dependencies
+        run: |
+          if [ -f .github/workflows/requirements.txt ]; then pip install -r .github/workflows/requirements.txt; fi
+      - name: execute py script
+        env: #secrets を使用して登録
+          x_api_key: ${{secrets.X_API_KEY_TC}}
+          x_api_secret: ${{secrets.X_API_KEY_SECRET_TC}}
+          x_access_token: ${{secrets.X_ACCESS_TOKEN_TC}}
+          x_access_token_secret: ${{secrets.X_ACCESS_TOKEN_SECRET_TC}}
+          channel_id: ${{vars.TACOPAN_YOUTUBE_CHANNEL_ID}}
+          discord_webhook_url: ${{vars.DISCORD_WEBHOOK_URL}}
+        run: |
+          python youtube_feed_twitter.py
+      - name: execute commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "crongenerated"
+          git push
+        continue-on-error: true
+      - if: ${{ steps.git-pr-release.outputs.error != '' && !contains(steps.git-pr-release.outputs.error, 'No pull requests to be released') }}
+        run: |
+          echo '::error ::git-pr-release failed with "${{ steps.git-pr-release.outputs.error }}"'
+          exit 1
