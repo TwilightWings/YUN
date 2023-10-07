@@ -24,12 +24,12 @@ jobs:
           channel_id: ${{vars.TACOPAN_YOUTUBE_CHANNEL_ID}}
           playlist_id: ${{vars.TACOPAN_YOUTUBE_PLAYLIST_ID}}
         run: |
-          python youtube_feed_getter.py
+          python youtube_feed_getter.pyc
       - name: execute py script 2
         env: #Registration using Repository variables
           channel_id: ${{vars.TWILIGHTWINGSSTUDIO_YOUTUBE_CHANNEL_ID}}
         run: |
-          python youtube_feed_getter.py
+          python youtube_feed_getter.pyc
       - name: execute commit
         run: |
           git config user.name github-actions
