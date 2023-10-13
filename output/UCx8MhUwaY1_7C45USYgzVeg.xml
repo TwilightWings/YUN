@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
  <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCx8MhUwaY1_7C45USYgzVeg"/>
- <id>yt:channel:</id>
- <yt:channelId></yt:channelId>
+ <id>yt:channel:x8MhUwaY1_7C45USYgzVeg</id>
+ <yt:channelId>x8MhUwaY1_7C45USYgzVeg</yt:channelId>
  <title>配信者最強ツール | Twilight Wings Studio</title>
  <link rel="alternate" href="https://www.youtube.com/channel/UCx8MhUwaY1_7C45USYgzVeg"/>
  <author>
