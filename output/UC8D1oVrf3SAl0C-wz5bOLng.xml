@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC8D1oVrf3SAl0C-wz5bOLng</uri>
   </author>
   <published>2023-10-11T11:20:42+00:00</published>
-  <updated>2023-10-15T04:00:48+00:00</updated>
+  <updated>2023-10-15T04:41:23+00:00</updated>
   <media:group>
    <media:title>🔴 ツキイチイベントマッチやるよー #スプラ3 #参加型 | #コメなしOK #splatoon3 #join #vtuberjp</media:title>
    <media:content url="https://www.youtube.com/v/Xw1juWpMpiw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -44,7 +44,7 @@ https://youtu.be/Yvngy1Zas_c
 SW-7568-0826-6583
 
 🦑🐙参加のルール
-・計測までやる
+・計測までやる（5回連続）
 ・2回連続でやりたい人は１度出てから1分は待つこと（時計で確認）
 ・回線落ちしたらネット環境を確認しよう。2回以上回線落ちしたらその日は参加をご遠慮ください。
 
@@ -92,8 +92,8 @@ https://store.steampowered.com/app/1632350?utm_source=YouTube_Tacopan
 #NintendoSwitch
 #バーチャルJK</media:description>
    <media:community>
-    <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="4"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="32"/>
    </media:community>
   </media:group>
  </entry>
