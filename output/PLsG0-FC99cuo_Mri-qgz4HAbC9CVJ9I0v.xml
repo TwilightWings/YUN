@@ -49,7 +49,7 @@
 Taco = octopus in japanese</media:description>
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="5"/>
+    <media:statistics views="6"/>
    </media:community>
   </media:group>
  </entry>
@@ -325,7 +325,7 @@ do quick respawn
 Taco = octopus in japanese</media:description>
    <media:community>
     <media:starRating count="4" average="5.00" min="1" max="5"/>
-    <media:statistics views="85"/>
+    <media:statistics views="86"/>
    </media:community>
   </media:group>
  </entry>
