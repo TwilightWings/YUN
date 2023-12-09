@@ -11,6 +11,47 @@
  </author>
  <published>2020-01-25T12:21:51+00:00</published>
  <entry>
+  <id>yt:video:VibyoJdTFJ0</id>
+  <yt:videoId>VibyoJdTFJ0</yt:videoId>
+  <yt:channelId>UCx8MhUwaY1_7C45USYgzVeg</yt:channelId>
+  <title>なりきりVTuber 縦型配信に対応しました #なりブイ</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=VibyoJdTFJ0"/>
+  <author>
+   <name>配信者最強ツール | Twilight Wings Studio</name>
+   <uri>https://www.youtube.com/channel/UCx8MhUwaY1_7C45USYgzVeg</uri>
+  </author>
+  <published>2023-12-09T07:25:38+00:00</published>
+  <updated>2023-12-09T07:25:38+00:00</updated>
+  <media:group>
+   <media:title>なりきりVTuber 縦型配信に対応しました #なりブイ</media:title>
+   <media:content url="https://www.youtube.com/v/VibyoJdTFJ0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/VibyoJdTFJ0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>✨なりきりVTuberであなたもVTuber！
+https://store.steampowered.com/app/1632350?utm_source=YouTube&amp;utm_medium=TwilightWingsStudio&amp;utm_content=video
+
+VRoid Studioで作ったVRMで簡単なりきりVTuber。
+ハッシュタグ #なりきりVTuber でお願いします。
+VRoid Studioで作ったVRMで面倒な変換もせずにすぐに表示できます。
+
+▶VRM対応、VRoid Studio製VRM、VRoid Hub対応。
+▶Webカメラで顔の向き推定
+▶マイクからの音声でリップシンク
+▶マイクから笑い声が入るとモデルも笑う
+▶眉毛連動
+▶眉毛透過
+▶口の幅が広がると口元が笑う
+▶ブルーバック/グリーンバック切り替え
+▶Leap Motion対応（デスクトップに上向きに配置してください）
+▶透過付きテクスチャのサポート ← NEW
+▶透過付き仮想ウェブカメラ ← Update
+▶ネットコラボとボイスチャット ← NEW</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:JZB6dBb2s4o</id>
   <yt:videoId>JZB6dBb2s4o</yt:videoId>
   <yt:channelId>UCx8MhUwaY1_7C45USYgzVeg</yt:channelId>
@@ -635,35 +676,6 @@ https://store.steampowered.com/app/1632800?utm_source=YouTube&amp;utm_medium=Twi
    <media:community>
     <media:starRating count="0" average="0.00" min="1" max="5"/>
     <media:statistics views="84"/>
-   </media:community>
-  </media:group>
- </entry>
- <entry>
-  <id>yt:video:n18S_rNOtAI</id>
-  <yt:videoId>n18S_rNOtAI</yt:videoId>
-  <yt:channelId>UCx8MhUwaY1_7C45USYgzVeg</yt:channelId>
-  <title>VRoidのまゆげ透過テスト</title>
-  <link rel="alternate" href="https://www.youtube.com/watch?v=n18S_rNOtAI"/>
-  <author>
-   <name>配信者最強ツール | Twilight Wings Studio</name>
-   <uri>https://www.youtube.com/channel/UCx8MhUwaY1_7C45USYgzVeg</uri>
-  </author>
-  <published>2020-06-21T13:27:21+00:00</published>
-  <updated>2023-11-21T00:44:19+00:00</updated>
-  <media:group>
-   <media:title>VRoidのまゆげ透過テスト</media:title>
-   <media:content url="https://www.youtube.com/v/n18S_rNOtAI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
-   <media:thumbnail url="https://i3.ytimg.com/vi/n18S_rNOtAI/hqdefault.jpg" width="480" height="360"/>
-   <media:description>髪の毛に隠れたまゆげを透過するテスト。
-
-そのまま浮き出るようにすることも可能だったけど違和感があったので薄い色で一色で塗りつぶした。
-VRoidのシェーダー改造しました。
-
-✨なりきりVTuberであなたもVTuber！
-https://store.steampowered.com/app/1632350?utm_source=YouTube&amp;utm_medium=TwilightWingsStudio&amp;utm_content=video</media:description>
-   <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="230"/>
    </media:community>
   </media:group>
  </entry>
