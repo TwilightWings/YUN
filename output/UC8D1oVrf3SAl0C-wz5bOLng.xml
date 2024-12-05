@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC8D1oVrf3SAl0C-wz5bOLng</uri>
   </author>
   <published>2024-12-05T14:02:27+00:00</published>
-  <updated>2024-12-05T14:02:35+00:00</updated>
+  <updated>2024-12-05T14:07:16+00:00</updated>
   <media:group>
    <media:title>🔴 寝落ち #マイクラ ⛏</media:title>
    <media:content url="https://www.youtube.com/v/04w4XCnfDek?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -72,8 +72,8 @@ https://help.minecraft.net/hc/en-us/articles/360029728772-YouTube-Monetization
 #NintendoSwitch
 #バーチャルJK</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="9"/>
    </media:community>
   </media:group>
  </entry>
