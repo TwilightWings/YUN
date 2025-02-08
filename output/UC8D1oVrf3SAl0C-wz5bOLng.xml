@@ -67,8 +67,8 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 #目指せXプレイ日記
 #バーチャルJK</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="1"/>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="2"/>
    </media:community>
   </media:group>
  </entry>
@@ -129,8 +129,8 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 #目指せXプレイ日記
 #バーチャルJK</media:description>
    <media:community>
-    <media:starRating count="23" average="5.00" min="1" max="5"/>
-    <media:statistics views="1335"/>
+    <media:starRating count="24" average="5.00" min="1" max="5"/>
+    <media:statistics views="1401"/>
    </media:community>
   </media:group>
  </entry>
@@ -895,7 +895,7 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 #バーチャルJK</media:description>
    <media:community>
     <media:starRating count="6" average="5.00" min="1" max="5"/>
-    <media:statistics views="146"/>
+    <media:statistics views="147"/>
    </media:community>
   </media:group>
  </entry>
