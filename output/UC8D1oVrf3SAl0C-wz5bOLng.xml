@@ -67,8 +67,8 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 #目指せXプレイ日記
 #バーチャルJK</media:description>
    <media:community>
-    <media:starRating count="1" average="5.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="11"/>
    </media:community>
   </media:group>
  </entry>
@@ -259,7 +259,7 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 https://help.minecraft.net/hc/en-us/articles/360029728772-YouTube-Monetization</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="613"/>
+    <media:statistics views="615"/>
    </media:community>
   </media:group>
  </entry>
