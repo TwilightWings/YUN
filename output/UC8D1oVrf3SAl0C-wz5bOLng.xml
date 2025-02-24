@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UC8D1oVrf3SAl0C-wz5bOLng</uri>
   </author>
   <published>2025-02-24T16:57:31+00:00</published>
-  <updated>2025-02-24T17:00:17+00:00</updated>
+  <updated>2025-02-24T17:48:25+00:00</updated>
   <media:group>
    <media:title>🔴 のんびりマイクラ⛏</media:title>
    <media:content url="https://www.youtube.com/v/al1rBsPpExc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -140,7 +140,7 @@ https://help.minecraft.net/hc/en-us/articles/360029728772-YouTube-Monetization
 #バーチャルJK</media:description>
    <media:community>
     <media:starRating count="3" average="5.00" min="1" max="5"/>
-    <media:statistics views="13"/>
+    <media:statistics views="14"/>
    </media:community>
   </media:group>
  </entry>
@@ -332,7 +332,7 @@ https://tacopan.carrd.co/
 https://store.steampowered.com/app/1632350?utm_source=YouTube&amp;utm_medium=Tacopan&amp;utm_content=video</media:description>
    <media:community>
     <media:starRating count="9" average="5.00" min="1" max="5"/>
-    <media:statistics views="49"/>
+    <media:statistics views="46"/>
    </media:community>
   </media:group>
  </entry>
@@ -528,7 +528,7 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 #バーチャルJK</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="533"/>
+    <media:statistics views="534"/>
    </media:community>
   </media:group>
  </entry>
@@ -560,7 +560,7 @@ https://tacopan.carrd.co/
 https://store.steampowered.com/app/1632350?utm_source=YouTube&amp;utm_medium=Tacopan&amp;utm_content=video</media:description>
    <media:community>
     <media:starRating count="13" average="5.00" min="1" max="5"/>
-    <media:statistics views="119"/>
+    <media:statistics views="117"/>
    </media:community>
   </media:group>
  </entry>
@@ -626,7 +626,7 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 https://help.minecraft.net/hc/en-us/articles/360029728772-YouTube-Monetization</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="622"/>
+    <media:statistics views="623"/>
    </media:community>
   </media:group>
  </entry>
