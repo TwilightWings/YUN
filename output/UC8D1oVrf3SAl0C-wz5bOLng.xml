@@ -72,8 +72,8 @@ https://help.minecraft.net/hc/en-us/articles/360029728772-YouTube-Monetization
 #NintendoSwitch
 #バーチャルJK</media:description>
    <media:community>
-    <media:starRating count="0" average="0.00" min="1" max="5"/>
-    <media:statistics views="0"/>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="5"/>
    </media:community>
   </media:group>
  </entry>
@@ -595,7 +595,7 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 #バーチャルJK</media:description>
    <media:community>
     <media:starRating count="12" average="5.00" min="1" max="5"/>
-    <media:statistics views="534"/>
+    <media:statistics views="537"/>
    </media:community>
   </media:group>
  </entry>
@@ -693,7 +693,7 @@ https://store.steampowered.com/app/1632350/NarikiriVTuber/
 https://help.minecraft.net/hc/en-us/articles/360029728772-YouTube-Monetization</media:description>
    <media:community>
     <media:starRating count="14" average="5.00" min="1" max="5"/>
-    <media:statistics views="623"/>
+    <media:statistics views="624"/>
    </media:community>
   </media:group>
  </entry>
