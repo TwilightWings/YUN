@@ -21,7 +21,7 @@
    <uri>https://www.youtube.com/channel/UCx8MhUwaY1_7C45USYgzVeg</uri>
   </author>
   <published>2024-10-14T16:14:14+00:00</published>
-  <updated>2025-01-23T09:43:36+00:00</updated>
+  <updated>2025-05-15T13:11:56+00:00</updated>
   <media:group>
    <media:title>なりきりVTuber VRMAnimation に対応しました #なりブイ</media:title>
    <media:content url="https://www.youtube.com/v/-_vHcbPaBTI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -34,6 +34,7 @@ VRoid Studioで作ったVRMで簡単なりきりVTuber。
 VRoid Studioで作ったVRMで面倒な変換もせずにすぐに表示できます。
 
 ■VRMAnimaiton対応 ← NEW
+■ネットワークコラボ ← Featured
 ■透過付きテクスチャのサポート ← Featured
 ■透過付き仮想ウェブカメラ ← Featured
 ■ネットコラボとボイスチャット ← Featured
@@ -48,7 +49,7 @@ VRoid Studioで作ったVRMで面倒な変換もせずにすぐに表示でき�
 ■Leap Motion対応（デスクトップに上向きに配置してください）</media:description>
    <media:community>
     <media:starRating count="2" average="5.00" min="1" max="5"/>
-    <media:statistics views="777"/>
+    <media:statistics views="779"/>
    </media:community>
   </media:group>
  </entry>
